@@ -1,0 +1,1 @@
+"""VocalStudio GUI package."""

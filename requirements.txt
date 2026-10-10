@@ -1,0 +1,18 @@
+# torch/torchaudio install from the cu128 index first (see install.bat):
+#   venv\Scripts\python -m pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
+funasr>=1.2.7,<2
+modelscope
+onnxruntime-gpu==1.22.0
+# DirectML flavor alternative (switch via scripts/switch_ort_directml.bat):
+# onnxruntime-directml==1.22.0
+librosa
+soundfile
+mido
+pyopenjtalk
+sounddevice
+einops
+# madmom 0.16.1 (chord/key/beat models, wave C1) ships sdist only; build needs Cython:
+#   venv\Scripts\python -m pip install Cython && venv\Scripts\python -m pip install --no-build-isolation madmom==0.16.1
+Cython>=3.0
+madmom==0.16.1
+PyQt-Fluent-Widgets

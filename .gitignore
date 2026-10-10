@@ -1,0 +1,67 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors
+.vscode/
+.idea/
+
+# Environments
+venv/
+
+# Vendor checkouts (their code is vendored into engines/)
+Vocal2Midi/
+!engines/vocal2midi/
+FunASR-V3/
+GPT-SoVITS-v2pro-20250604-nvidia50/
+# Fine-tune training sources (cloned upstream checkouts, gitignored)
+vendored/
+
+# Model weights & downloads
+experiments/*
+!experiments/.gitkeep
+
+# Test/usage media and local baselines stay outside git
+/materials/
+
+# Runtime artifacts
+outputs/
+temp/
+logs/
+*.log
+
+# Local tool binaries (FFmpeg shared build for m4a decode)
+tools/ffmpeg/
+
+
+# Generated user settings + local runtime data
+settings/user.json
+nltk_data/
+
+# Scratch / debug artifacts left at repo root
+.scratch_*
+scratch_*.py
+scratch_*.png
+baseline_*.png
+
+# Loose repro / test media at repo root
+/*.wav
+/*.mp3
+/*.flac
+/*.ogg
+# Packaging (PyInstaller)
+build/
+dist/
+*.spec
+
+# Vendored project checkouts (targets of the root symlinks under projects/)
+projects/
+
+# ROCm virtualenv (mirrors venv/)
+venv-rocm/
+venv-rocm10/
+!VocalStudioBackend.spec

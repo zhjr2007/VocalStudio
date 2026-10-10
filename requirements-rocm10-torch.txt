@@ -1,0 +1,6 @@
+--index-url https://stable.repo.amd.com/rocm/whl-next/
+torch[device-gfx1102]==2.13.0+rocm10.0.0
+torchvision[device-gfx1102]==0.28.0+rocm10.0.0
+torchaudio==2.11.0.2+rocm10.0.0
+# Build baseline includes the SDK headers used during diagnostics and collection.
+rocm-sdk-devel==10.0.0

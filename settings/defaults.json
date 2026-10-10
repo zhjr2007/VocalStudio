@@ -1,0 +1,26 @@
+{
+  "models": {
+    "game": "Vocal2Midi/experiments/GAME-1.0.3-medium-onnx",
+    "hubertfa": "Vocal2Midi/experiments/1218_hfa_model_new_dict",
+    "qwen3_asr": "Vocal2Midi/experiments/Qwen3-ASR-1.7B-dml",
+    "rmvpe": "Vocal2Midi/experiments/RMVPE/rmvpe.onnx",
+    "romaji_asr": "Vocal2Midi/experiments/romajiASR",
+    "sensevoice": "experiments/funasr/iic/SenseVoiceSmall",
+    "vad": "FunASR-V3/modelscope/models/iic/speech_fsmn_vad_zh-cn-16k-common-pytorch",
+    "campplus": "experiments/speaker/iic/speech_campplus_sv_zh-cn_16k-common",
+    "ct_punc": "FunASR-V3/modelscope/models/iic/punc_ct-transformer_cn-en-common-vocab471067-large",
+    "paraformer": "FunASR-V3/modelscope/models/iic/speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch",
+    "uvr5_weights": "GPT-SoVITS-v2pro-20250604-nvidia50/tools/uvr5/uvr5_weights",
+    "denoise": "GPT-SoVITS-v2pro-20250604-nvidia50/tools/denoise-model",
+    "gsv_root": "GPT-SoVITS-v2pro-20250604-nvidia50/GPT_SoVITS",
+    "gsv_v2pro_gpt": "GPT-SoVITS-v2pro-20250604-nvidia50/GPT_SoVITS/pretrained_models/gsv-v2final-pretrained/s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+    "gsv_v2pro_sovits": "GPT-SoVITS-v2pro-20250604-nvidia50/GPT_SoVITS/pretrained_models/v2Pro/s2Gv2Pro.pth",
+    "gsv_v2proplus_gpt": "GPT-SoVITS-v2pro-20250604-nvidia50/GPT_SoVITS/pretrained_models/gsv-v2final-pretrained/s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+    "gsv_v2proplus_sovits": "GPT-SoVITS-v2pro-20250604-nvidia50/GPT_SoVITS/pretrained_models/v2Pro/s2Gv2ProPlus.pth",
+    "chinese_hubert": "GPT-SoVITS-v2pro-20250604-nvidia50/GPT_SoVITS/pretrained_models/chinese-hubert-base",
+    "chinese_roberta": "GPT-SoVITS-v2pro-20250604-nvidia50/GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large",
+    "drums": "GPT-SoVITS-v2pro-20250604-nvidia50/tools/uvr5/uvr5_weights/drums_bs_roformer.ckpt",
+    "bass": "GPT-SoVITS-v2pro-20250604-nvidia50/tools/uvr5/uvr5_weights/bass_bs_roformer.ckpt",
+    "piano": "GPT-SoVITS-v2pro-20250604-nvidia50/tools/uvr5/uvr5_weights/piano_bs_roformer.ckpt"
+  }
+}

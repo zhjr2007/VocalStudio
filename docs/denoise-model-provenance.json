@@ -1,0 +1,11 @@
+{
+  "model": "FRCRN speech_frcrn_ans_cirm_16k",
+  "original": "https://www.modelscope.cn/models/iic/speech_frcrn_ans_cirm_16k",
+  "download": "https://huggingface.co/alextomcat/speech_frcrn_ans_cirm_16k",
+  "revision": "cab534a1ef4637c9ad37e0df068c200f49029d18",
+  "sha256": "477a2f82019b0a2b5bdd51541405d7e585a1f0355e162f3b46bf5c20d79fd612",
+  "bytes": 57991225,
+  "reason": "Official ModelScope endpoints reset connections; public mirror, state-dictionary-only loading with weights_only=True",
+  "upstream_license": "Apache-2.0 (mirror declaration)",
+  "date": "2026-10-10"
+}
